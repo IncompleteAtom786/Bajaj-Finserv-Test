@@ -1,6 +1,4 @@
-# VIT BFHL API
-
-A minimal Express API that implements the **/bfhl (POST)** route required by the VIT Full Stack challenge.
+# Bajaj Finserv Test
 
 ## Requirements Implemented
 
