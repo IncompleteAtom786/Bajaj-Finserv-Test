@@ -26,26 +26,21 @@ npm run dev
 Set your identifiers in `.env` (optional—defaults are provided).
 
 ```
-FULL_NAME=John Doe
-DOB_DDMMYYYY=17091999
-EMAIL=john@xyz.com
-ROLL_NUMBER=ABCD123
+FULL_NAME=Taher Kapadia
+DOB_DDMMYYYY=07112004
+EMAIL=taher5253kapadia786@gmail.com
+ROLL_NUMBER=22BPS1113
 ```
 
 ## Example request
 
 ```bash
-curl -X POST http://localhost:3000/bfhl   -H "Content-Type: application/json"   -d '{"data":["a","1","334","4","R","$"]}'
-```
-or (using powershell)
-```bash
-Invoke-RestMethod -Uri "http://localhost:3000/bfhl" -Method Post -Body '{"data":["a","1","334","4","R","$"]}' -ContentType "application/json"
+curl -X POST https://bajaj-finserv-test-eight.vercel.app/bfhl \
+  -H "Content-Type: application/json" \
+  -d '{"data":["a","1","334","4","R","$"]}'
 ```
 
 ## Deploy
-
-- **Render**: create a new Web Service from this repo. Set `Start Command` to `npm start`.
-- **Railway**: new project from repo, auto-detects Node app.
 - **Vercel**: create a Serverless function or use the Node server via `vercel.json` (included).
 
 ## Notes
