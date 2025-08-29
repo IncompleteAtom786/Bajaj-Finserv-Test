@@ -1,0 +1,8 @@
+node_modules
+.env
+npm-debug.log*
+yarn-error.log*
+.pnpm-store
+.vercel
+.vscode
+.DS_Store

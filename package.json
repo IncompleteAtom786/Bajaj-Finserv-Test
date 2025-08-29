@@ -1,0 +1,27 @@
+{
+  "name": "vit-bfhl-api",
+  "version": "1.0.0",
+  "description": "REST API for VIT BFHL challenge: POST /bfhl processes mixed array per spec.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "bfhl",
+    "vit",
+    "rest",
+    "api",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0"
+  }
+}
