@@ -30,7 +30,7 @@ function toAlternatingCaps(input) {
     .join("");
 }
 
-app.get("/", (_req, res) => {
+app.get("/bhfl", (_req, res) => {
   res.json({
     name: "Bajaj Finserv Test API",
     status: "ok",
