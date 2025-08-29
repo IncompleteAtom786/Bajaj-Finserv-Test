@@ -39,6 +39,10 @@ ROLL_NUMBER=ABCD123
 ```bash
 curl -X POST http://localhost:3000/bfhl   -H "Content-Type: application/json"   -d '{"data":["a","1","334","4","R","$"]}'
 ```
+or (using powershell)
+```bash
+Invoke-RestMethod -Uri "http://localhost:3000/bfhl" -Method Post -Body '{"data":["a","1","334","4","R","$"]}' -ContentType "application/json"
+```
 
 ## Deploy
 
